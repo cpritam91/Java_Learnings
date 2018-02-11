@@ -14,14 +14,17 @@ public class Person {
 	}
 
 	public String getName() {
+		//System.out.println("getName() called for " + name);
 		return name;
 	}
 
 	public Gender getGender() {
+		//System.out.println("getGender() called for " + name);
 		return gender;
 	}
 
 	public int getAge() {
+		//System.out.println("getAge() called for " + name);
 		return age;
 	}
 
