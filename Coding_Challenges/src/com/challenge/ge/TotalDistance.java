@@ -22,7 +22,7 @@ public class TotalDistance {
 
 	private static double getTotalDistance(int[] arr, int startX, int xN1, int yN1) {
 		
-		double distance = 0d;
+		double distance;
 		if(xN1 < startX) {
 			distance = moveRightFirst(arr, startX, xN1, yN1);
 		} else if(xN1 > startX) {
